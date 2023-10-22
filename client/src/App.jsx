@@ -8,8 +8,8 @@ import SignIn from './pages/SignIn';
 import Profile from './pages/Profile';
 import Header from './component/Header';
 import SignUp from './pages/SignUp';
+
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
