@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Signin from './pages/Signin';
-import SignOut from './pages/SignOut';
+import SignIn from './pages/SignIn';
 import Profile from './pages/Profile';
 import Header from './component/Header';
+import SignUp from './pages/SignUp';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -19,8 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/sign-in' element={<Signin />} />
-          <Route path='/sign-out' element={<SignOut />} />
+          <Route path='/sign-in' element={<SignIn />} />
+          <Route path='/sign-up' element={<SignUp />} />
           <Route path='/profile' element={<Profile />} />
         </Routes>
       </BrowserRouter>
